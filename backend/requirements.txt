@@ -1,0 +1,19 @@
+# KiranaIQ backend dependencies
+# Core API + DB (needed from Step 1)
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.35
+python-multipart==0.0.9
+
+# Data / ML (Step 2)
+numpy==1.26.4
+pandas==2.2.2
+lightgbm==4.5.0
+scikit-learn==1.5.2  # required by lightgbm's sklearn API
+
+# Voice (Step 4)
+faster-whisper==1.0.3
+rapidfuzz==3.9.7
+
+# Scheduler (Step 5)
+apscheduler==3.10.4

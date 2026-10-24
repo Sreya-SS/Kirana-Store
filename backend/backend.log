@@ -1,0 +1,24 @@
+INFO:     Started server process [32640]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[startup] Forecast model trained.
+[startup] Whisper model preloaded.
+[startup] Scheduler started (nightly alert check at 00:30).
+INFO:     127.0.0.1:63017 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63019 - "POST /alerts/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63020 - "GET /forecast/50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52050 - "GET /alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62391 - "GET /items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63252 - "GET /alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63252 - "GET /items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63252 - "GET /alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57790 - "OPTIONS /items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57790 - "GET /items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55264 - "POST /voice/transcribe HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:64398 - "POST /voice/transcribe HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:51976 - "GET /items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49934 - "GET /items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57338 - "OPTIONS /forecast/47 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57338 - "GET /forecast/47 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57151 - "GET /items HTTP/1.1" 200 OK

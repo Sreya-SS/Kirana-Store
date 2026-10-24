@@ -1,0 +1,10 @@
+{
+  "wape_baseline": 0.1884,
+  "wape_lightgbm": 0.1455,
+  "wape_baseline_pct": 18.84,
+  "wape_lightgbm_pct": 14.55,
+  "backtest_days": 28,
+  "n_train_rows": 15141,
+  "n_test_rows": 1372,
+  "note": "SYNTHETIC data. WAPE = sum(|actual-pred|)/sum(actual), lower is better."
+}
